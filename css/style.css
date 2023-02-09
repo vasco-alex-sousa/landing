@@ -1,0 +1,59 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Import Components CSS */
+@import url('./components/footer.css');
+@import url('./components/header.css');
+@import url('./components/how-it-works.css');
+
+/* Utilities */
+body {
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+background-color: #f2f2f2;
+}
+
+h1, h2, h3, h4 {
+font-family: 'Poppins', sans-serif;
+font-weight: 700;
+color: #0072ff;
+}
+
+a {
+color: #0072ff;
+text-decoration: none;
+}
+
+/* Custom design below! */
+
+/* Global styles */
+.text-center {
+text-align: center;
+}
+
+.py-5 {
+padding: 1rem;
+}
+
+.btn {
+border-radius: 30px;
+background-color: #0072ff;
+color: #fff;
+padding: 10px 20px;
+text-align: center;
+text-transform: uppercase;
+font-weight: 700;
+letter-spacing: 1px;
+font-size: 18px;
+box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease-in-out;
+cursor: pointer;
+}
+
+.btn:hover {
+transform: translateY(-5px);
+box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
